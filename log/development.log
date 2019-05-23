@@ -26,3 +26,54 @@
   ↳ bin/rails:9
   [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   ↳ bin/rails:9
+Started GET "/" for 127.0.0.1 at 2019-05-22 23:21:59 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+WARNING: We noticed you're using the `useBuiltIns` option without declaring a core-js version. Currently, we assume version 2.x when no version is passed. Since this default version will likely change in future versions of Babel, we recommend explicitly setting the core-js version you are using via the `corejs` option.
+
+You should also be sure that the version you pass to the `corejs` option matches the version specified in your `package.json`'s `dependencies` section. If it doesn't, you need to run one of the following commands:
+
+  npm install --save core-js@2    npm install --save core-js@3
+  yarn add core-js@2              yarn add core-js@3
+
+
+Hash: 582efb7fd342c6e55bfc
+Version: webpack 4.32.1
+Time: 1882ms
+Built at: 05/22/2019 11:22:02 PM
+                                          Asset      Size            Chunks             Chunk Names
+         js/application-85b1dc37174235965c1a.js     1 MiB       application  [emitted]  application
+     js/application-85b1dc37174235965c1a.js.map  1.16 MiB       application  [emitted]  application
+               js/index-83a09d7b8858a81d360d.js  1.02 MiB             index  [emitted]  index
+           js/index-83a09d7b8858a81d360d.js.map  1.16 MiB             index  [emitted]  index
+    js/server_rendering-9a5856ce319a98df5250.js     1 MiB  server_rendering  [emitted]  server_rendering
+js/server_rendering-9a5856ce319a98df5250.js.map  1.16 MiB  server_rendering  [emitted]  server_rendering
+                                  manifest.json  1.01 KiB                    [emitted]  
+Entrypoint application = js/application-85b1dc37174235965c1a.js js/application-85b1dc37174235965c1a.js.map
+Entrypoint index = js/index-83a09d7b8858a81d360d.js js/index-83a09d7b8858a81d360d.js.map
+Entrypoint server_rendering = js/server_rendering-9a5856ce319a98df5250.js js/server_rendering-9a5856ce319a98df5250.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 183 bytes {application} {server_rendering} [built]
+[./app/javascript/css/style.css] 1.3 KiB {index} [built]
+[./app/javascript/packs/application.js] 193 bytes {application} [built]
+[./app/javascript/packs/index.js] 1.01 KiB {index} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/css/style.css] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css 1.27 KiB {index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 472 bytes {application} {index} {server_rendering} [built]
+    + 49 hidden modules
+
+  Rendered pages/home.html.erb within layouts/application (3768.2ms)
+Completed 200 OK in 3779ms (Views: 3778.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-05-22 23:23:20 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/rdzcn/code/rdzcn/react-rails-todoApp/public/packs
+  Rendered pages/home.html.erb within layouts/application (3124.7ms)
+Completed 200 OK in 3134ms (Views: 3132.7ms | ActiveRecord: 0.0ms)
+
+
