@@ -1,14 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import '../css/style.css'
 
 class App extends React.Component {
-  render () {
+  render() {
     return (
       <div className="app">
-         <h1>Rails with React</h1>
+        <form className="pick">
+          <input className="pick-date" type="date" required />
+          <button type="submit" className="pick-button">Pick a date</button>
+        </form>
       </div>
     ) 
   } 
 }  
 
-export default App;
+export default App

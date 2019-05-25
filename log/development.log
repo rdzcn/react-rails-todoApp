@@ -77,3 +77,1433 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 3134ms (Views: 3132.7ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-05-23 20:14:21 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+WARNING: We noticed you're using the `useBuiltIns` option without declaring a core-js version. Currently, we assume version 2.x when no version is passed. Since this default version will likely change in future versions of Babel, we recommend explicitly setting the core-js version you are using via the `corejs` option.
+
+You should also be sure that the version you pass to the `corejs` option matches the version specified in your `package.json`'s `dependencies` section. If it doesn't, you need to run one of the following commands:
+
+  npm install --save core-js@2    npm install --save core-js@3
+  yarn add core-js@2              yarn add core-js@3
+
+
+Hash: 2ff09543a9857698e809
+Version: webpack 4.32.1
+Time: 1491ms
+Built at: 05/23/2019 8:14:24 PM
+                                          Asset      Size            Chunks             Chunk Names
+         js/application-3cdbd3bc8116be68cf96.js     1 MiB       application  [emitted]  application
+     js/application-3cdbd3bc8116be68cf96.js.map  1.16 MiB       application  [emitted]  application
+               js/index-69e92712827fd4f5c12d.js  1.02 MiB             index  [emitted]  index
+           js/index-69e92712827fd4f5c12d.js.map  1.16 MiB             index  [emitted]  index
+    js/server_rendering-11f5934fa84a7a6396e2.js     1 MiB  server_rendering  [emitted]  server_rendering
+js/server_rendering-11f5934fa84a7a6396e2.js.map  1.16 MiB  server_rendering  [emitted]  server_rendering
+                                  manifest.json  1.01 KiB                    [emitted]  
+Entrypoint application = js/application-3cdbd3bc8116be68cf96.js js/application-3cdbd3bc8116be68cf96.js.map
+Entrypoint index = js/index-69e92712827fd4f5c12d.js js/index-69e92712827fd4f5c12d.js.map
+Entrypoint server_rendering = js/server_rendering-11f5934fa84a7a6396e2.js js/server_rendering-11f5934fa84a7a6396e2.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 212 bytes {application} {server_rendering} [built]
+[./app/javascript/css/style.css] 1.3 KiB {index} [built]
+[./app/javascript/packs/application.js] 193 bytes {application} [built]
+[./app/javascript/packs/index.js] 1.01 KiB {index} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/css/style.css] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css 1.14 KiB {index} [built] [1 warning]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 472 bytes {application} {index} {server_rendering} [built]
+    + 50 hidden modules
+
+WARNING in ./app/javascript/css/style.css (./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css)
+Module Warning (from ./node_modules/postcss-loader/src/index.js):
+Warning
+
+(7:1) @import must precede all other statements (besides @charset)
+ @ ./app/javascript/css/style.css 2:14-153
+ @ ./app/javascript/packs/index.js
+
+  Rendered pages/home.html.erb within layouts/application (3214.0ms)
+Completed 200 OK in 3219ms (Views: 3218.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-05-24 09:19:49 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+WARNING: We noticed you're using the `useBuiltIns` option without declaring a core-js version. Currently, we assume version 2.x when no version is passed. Since this default version will likely change in future versions of Babel, we recommend explicitly setting the core-js version you are using via the `corejs` option.
+
+You should also be sure that the version you pass to the `corejs` option matches the version specified in your `package.json`'s `dependencies` section. If it doesn't, you need to run one of the following commands:
+
+  npm install --save core-js@2    npm install --save core-js@3
+  yarn add core-js@2              yarn add core-js@3
+
+
+Hash: 346d7dbc5055b304f54a
+Version: webpack 4.32.1
+Time: 1767ms
+Built at: 05/24/2019 9:19:53 AM
+                                          Asset      Size            Chunks             Chunk Names
+         js/application-85823b186d342d5c84a6.js  1.15 MiB       application  [emitted]  application
+     js/application-85823b186d342d5c84a6.js.map  1.29 MiB       application  [emitted]  application
+               js/index-eafb7098cdd0c3faf035.js  1.03 MiB             index  [emitted]  index
+           js/index-eafb7098cdd0c3faf035.js.map  1.16 MiB             index  [emitted]  index
+    js/server_rendering-a1b3d888ce086896720f.js  1.15 MiB  server_rendering  [emitted]  server_rendering
+js/server_rendering-a1b3d888ce086896720f.js.map  1.29 MiB  server_rendering  [emitted]  server_rendering
+                                  manifest.json  1.01 KiB                    [emitted]  
+Entrypoint application = js/application-85823b186d342d5c84a6.js js/application-85823b186d342d5c84a6.js.map
+Entrypoint index = js/index-eafb7098cdd0c3faf035.js js/index-eafb7098cdd0c3faf035.js.map
+Entrypoint server_rendering = js/server_rendering-a1b3d888ce086896720f.js js/server_rendering-a1b3d888ce086896720f.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 212 bytes {application} {server_rendering} [built]
+[./app/javascript/css/style.css] 1.3 KiB {index} [built]
+[./app/javascript/packs/application.js] 193 bytes {application} [built]
+[./app/javascript/packs/index.js] 1.01 KiB {index} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/css/style.css] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css 1.14 KiB {index} [built] [1 warning]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 472 bytes {application} {index} {server_rendering} [built]
+    + 50 hidden modules
+
+WARNING in ./app/javascript/css/style.css (./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css)
+Module Warning (from ./node_modules/postcss-loader/src/index.js):
+Warning
+
+(7:1) @import must precede all other statements (besides @charset)
+ @ ./app/javascript/css/style.css 2:14-153
+ @ ./app/javascript/packs/index.js
+
+  Rendered pages/home.html.erb within layouts/application (3425.4ms)
+Completed 200 OK in 3430ms (Views: 3429.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-05-24 09:21:54 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+WARNING: We noticed you're using the `useBuiltIns` option without declaring a core-js version. Currently, we assume version 2.x when no version is passed. Since this default version will likely change in future versions of Babel, we recommend explicitly setting the core-js version you are using via the `corejs` option.
+
+You should also be sure that the version you pass to the `corejs` option matches the version specified in your `package.json`'s `dependencies` section. If it doesn't, you need to run one of the following commands:
+
+  npm install --save core-js@2    npm install --save core-js@3
+  yarn add core-js@2              yarn add core-js@3
+
+
+Hash: a88024f9e3b4275aec91
+Version: webpack 4.32.1
+Time: 1733ms
+Built at: 05/24/2019 9:21:58 AM
+                                          Asset      Size            Chunks             Chunk Names
+         js/application-e3a9cdce0558e548272a.js  1.15 MiB       application  [emitted]  application
+     js/application-e3a9cdce0558e548272a.js.map   1.3 MiB       application  [emitted]  application
+               js/index-3f2dae5d9496c97569df.js  1.03 MiB             index  [emitted]  index
+           js/index-3f2dae5d9496c97569df.js.map  1.16 MiB             index  [emitted]  index
+    js/server_rendering-ead5e92792f2eaae3da3.js  1.15 MiB  server_rendering  [emitted]  server_rendering
+js/server_rendering-ead5e92792f2eaae3da3.js.map   1.3 MiB  server_rendering  [emitted]  server_rendering
+                                  manifest.json  1.01 KiB                    [emitted]  
+Entrypoint application = js/application-e3a9cdce0558e548272a.js js/application-e3a9cdce0558e548272a.js.map
+Entrypoint index = js/index-3f2dae5d9496c97569df.js js/index-3f2dae5d9496c97569df.js.map
+Entrypoint server_rendering = js/server_rendering-ead5e92792f2eaae3da3.js js/server_rendering-ead5e92792f2eaae3da3.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 212 bytes {application} {server_rendering} [built]
+[./app/javascript/css/style.css] 1.3 KiB {index} [built]
+[./app/javascript/packs/application.js] 193 bytes {application} [built]
+[./app/javascript/packs/index.js] 1.01 KiB {index} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/css/style.css] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css 1.14 KiB {index} [built] [1 warning]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 472 bytes {application} {index} {server_rendering} [built]
+    + 50 hidden modules
+
+WARNING in ./app/javascript/css/style.css (./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css)
+Module Warning (from ./node_modules/postcss-loader/src/index.js):
+Warning
+
+(7:1) @import must precede all other statements (besides @charset)
+ @ ./app/javascript/css/style.css 2:14-153
+ @ ./app/javascript/packs/index.js
+
+  Rendered pages/home.html.erb within layouts/application (3462.9ms)
+Completed 200 OK in 3467ms (Views: 3466.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-05-24 09:28:32 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+WARNING: We noticed you're using the `useBuiltIns` option without declaring a core-js version. Currently, we assume version 2.x when no version is passed. Since this default version will likely change in future versions of Babel, we recommend explicitly setting the core-js version you are using via the `corejs` option.
+
+You should also be sure that the version you pass to the `corejs` option matches the version specified in your `package.json`'s `dependencies` section. If it doesn't, you need to run one of the following commands:
+
+  npm install --save core-js@2    npm install --save core-js@3
+  yarn add core-js@2              yarn add core-js@3
+
+
+Hash: ba34eeb107274b52fdb5
+Version: webpack 4.32.1
+Time: 1679ms
+Built at: 05/24/2019 9:28:35 AM
+                                          Asset      Size            Chunks             Chunk Names
+         js/application-9c9e54d57ae6e1f62fa0.js  1.15 MiB       application  [emitted]  application
+     js/application-9c9e54d57ae6e1f62fa0.js.map   1.3 MiB       application  [emitted]  application
+               js/index-ab8b0e50b2267305512e.js  1.03 MiB             index  [emitted]  index
+           js/index-ab8b0e50b2267305512e.js.map  1.16 MiB             index  [emitted]  index
+    js/server_rendering-02386692415f013a778e.js  1.15 MiB  server_rendering  [emitted]  server_rendering
+js/server_rendering-02386692415f013a778e.js.map   1.3 MiB  server_rendering  [emitted]  server_rendering
+                                  manifest.json  1.01 KiB                    [emitted]  
+Entrypoint application = js/application-9c9e54d57ae6e1f62fa0.js js/application-9c9e54d57ae6e1f62fa0.js.map
+Entrypoint index = js/index-ab8b0e50b2267305512e.js js/index-ab8b0e50b2267305512e.js.map
+Entrypoint server_rendering = js/server_rendering-02386692415f013a778e.js js/server_rendering-02386692415f013a778e.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 239 bytes {application} {server_rendering} [built]
+[./app/javascript/css/style.css] 1.3 KiB {index} [built]
+[./app/javascript/packs/application.js] 193 bytes {application} [built]
+[./app/javascript/packs/index.js] 1.01 KiB {index} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/css/style.css] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css 1.14 KiB {index} [built] [1 warning]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 472 bytes {application} {index} {server_rendering} [built]
+    + 51 hidden modules
+
+WARNING in ./app/javascript/css/style.css (./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css)
+Module Warning (from ./node_modules/postcss-loader/src/index.js):
+Warning
+
+(7:1) @import must precede all other statements (besides @charset)
+ @ ./app/javascript/css/style.css 2:14-153
+ @ ./app/javascript/packs/index.js
+
+  Rendered pages/home.html.erb within layouts/application (3369.1ms)
+Completed 200 OK in 3374ms (Views: 3373.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-05-24 09:33:42 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+WARNING: We noticed you're using the `useBuiltIns` option without declaring a core-js version. Currently, we assume version 2.x when no version is passed. Since this default version will likely change in future versions of Babel, we recommend explicitly setting the core-js version you are using via the `corejs` option.
+
+You should also be sure that the version you pass to the `corejs` option matches the version specified in your `package.json`'s `dependencies` section. If it doesn't, you need to run one of the following commands:
+
+  npm install --save core-js@2    npm install --save core-js@3
+  yarn add core-js@2              yarn add core-js@3
+
+
+Hash: f9604dceed203c86e7d6
+Version: webpack 4.32.1
+Time: 1695ms
+Built at: 05/24/2019 9:33:46 AM
+                                          Asset      Size            Chunks             Chunk Names
+         js/application-8ae2b52269b3fac4a53d.js  1.15 MiB       application  [emitted]  application
+     js/application-8ae2b52269b3fac4a53d.js.map   1.3 MiB       application  [emitted]  application
+               js/index-b0871a1bcc3b3c791955.js  1.03 MiB             index  [emitted]  index
+           js/index-b0871a1bcc3b3c791955.js.map  1.16 MiB             index  [emitted]  index
+    js/server_rendering-a3620fa3a679dd945081.js  1.15 MiB  server_rendering  [emitted]  server_rendering
+js/server_rendering-a3620fa3a679dd945081.js.map   1.3 MiB  server_rendering  [emitted]  server_rendering
+                                  manifest.json  1.01 KiB                    [emitted]  
+Entrypoint application = js/application-8ae2b52269b3fac4a53d.js js/application-8ae2b52269b3fac4a53d.js.map
+Entrypoint index = js/index-b0871a1bcc3b3c791955.js js/index-b0871a1bcc3b3c791955.js.map
+Entrypoint server_rendering = js/server_rendering-a3620fa3a679dd945081.js js/server_rendering-a3620fa3a679dd945081.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 239 bytes {application} {server_rendering} [built]
+[./app/javascript/css/style.css] 1.3 KiB {index} [built]
+[./app/javascript/packs/application.js] 193 bytes {application} [built]
+[./app/javascript/packs/index.js] 1.01 KiB {index} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/css/style.css] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css 1.14 KiB {index} [built] [1 warning]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 472 bytes {application} {index} {server_rendering} [built]
+    + 51 hidden modules
+
+WARNING in ./app/javascript/css/style.css (./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css)
+Module Warning (from ./node_modules/postcss-loader/src/index.js):
+Warning
+
+(7:1) @import must precede all other statements (besides @charset)
+ @ ./app/javascript/css/style.css 2:14-153
+ @ ./app/javascript/packs/index.js
+
+  Rendered pages/home.html.erb within layouts/application (3374.2ms)
+Completed 200 OK in 3379ms (Views: 3378.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-05-24 09:35:15 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+WARNING: We noticed you're using the `useBuiltIns` option without declaring a core-js version. Currently, we assume version 2.x when no version is passed. Since this default version will likely change in future versions of Babel, we recommend explicitly setting the core-js version you are using via the `corejs` option.
+
+You should also be sure that the version you pass to the `corejs` option matches the version specified in your `package.json`'s `dependencies` section. If it doesn't, you need to run one of the following commands:
+
+  npm install --save core-js@2    npm install --save core-js@3
+  yarn add core-js@2              yarn add core-js@3
+
+
+Hash: 06a0c5451a67f78058ea
+Version: webpack 4.32.1
+Time: 1739ms
+Built at: 05/24/2019 9:35:19 AM
+                                          Asset      Size            Chunks             Chunk Names
+         js/application-047e112c6f45a42f7ab6.js  1.15 MiB       application  [emitted]  application
+     js/application-047e112c6f45a42f7ab6.js.map   1.3 MiB       application  [emitted]  application
+               js/index-37ef1c112a0477cb9da1.js  1.02 MiB             index  [emitted]  index
+           js/index-37ef1c112a0477cb9da1.js.map  1.16 MiB             index  [emitted]  index
+    js/server_rendering-af59a1f5266558c67b46.js  1.15 MiB  server_rendering  [emitted]  server_rendering
+js/server_rendering-af59a1f5266558c67b46.js.map   1.3 MiB  server_rendering  [emitted]  server_rendering
+                                  manifest.json  1.01 KiB                    [emitted]  
+Entrypoint application = js/application-047e112c6f45a42f7ab6.js js/application-047e112c6f45a42f7ab6.js.map
+Entrypoint index = js/index-37ef1c112a0477cb9da1.js js/index-37ef1c112a0477cb9da1.js.map
+Entrypoint server_rendering = js/server_rendering-af59a1f5266558c67b46.js js/server_rendering-af59a1f5266558c67b46.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 239 bytes {application} {server_rendering} [built]
+[./app/javascript/css/style.css] 1.3 KiB {index} [built]
+[./app/javascript/packs/application.js] 193 bytes {application} [built]
+[./app/javascript/packs/index.js] 1.01 KiB {index} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/css/style.css] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css 1.14 KiB {index} [built] [1 warning]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 472 bytes {application} {index} {server_rendering} [built]
+    + 51 hidden modules
+
+WARNING in ./app/javascript/css/style.css (./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css)
+Module Warning (from ./node_modules/postcss-loader/src/index.js):
+Warning
+
+(7:1) @import must precede all other statements (besides @charset)
+ @ ./app/javascript/css/style.css 2:14-153
+ @ ./app/javascript/packs/index.js
+
+  Rendered pages/home.html.erb within layouts/application (3427.1ms)
+Completed 200 OK in 3431ms (Views: 3430.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-05-24 09:35:44 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+WARNING: We noticed you're using the `useBuiltIns` option without declaring a core-js version. Currently, we assume version 2.x when no version is passed. Since this default version will likely change in future versions of Babel, we recommend explicitly setting the core-js version you are using via the `corejs` option.
+
+You should also be sure that the version you pass to the `corejs` option matches the version specified in your `package.json`'s `dependencies` section. If it doesn't, you need to run one of the following commands:
+
+  npm install --save core-js@2    npm install --save core-js@3
+  yarn add core-js@2              yarn add core-js@3
+
+
+Hash: bd2b26ad791d63743668
+Version: webpack 4.32.1
+Time: 1702ms
+Built at: 05/24/2019 9:35:47 AM
+                                          Asset      Size            Chunks             Chunk Names
+         js/application-406ebf6a219af9827b19.js  1.15 MiB       application  [emitted]  application
+     js/application-406ebf6a219af9827b19.js.map   1.3 MiB       application  [emitted]  application
+               js/index-74ebd54a102046c30aa7.js  1.02 MiB             index  [emitted]  index
+           js/index-74ebd54a102046c30aa7.js.map  1.16 MiB             index  [emitted]  index
+    js/server_rendering-0cff8617592e884756fc.js  1.15 MiB  server_rendering  [emitted]  server_rendering
+js/server_rendering-0cff8617592e884756fc.js.map   1.3 MiB  server_rendering  [emitted]  server_rendering
+                                  manifest.json  1.01 KiB                    [emitted]  
+Entrypoint application = js/application-406ebf6a219af9827b19.js js/application-406ebf6a219af9827b19.js.map
+Entrypoint index = js/index-74ebd54a102046c30aa7.js js/index-74ebd54a102046c30aa7.js.map
+Entrypoint server_rendering = js/server_rendering-0cff8617592e884756fc.js js/server_rendering-0cff8617592e884756fc.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 239 bytes {application} {server_rendering} [built]
+[./app/javascript/css/style.css] 1.3 KiB {index} [built]
+[./app/javascript/packs/application.js] 193 bytes {application} [built]
+[./app/javascript/packs/index.js] 1.01 KiB {index} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/css/style.css] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css 1.14 KiB {index} [built] [1 warning]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 472 bytes {application} {index} {server_rendering} [built]
+    + 51 hidden modules
+
+WARNING in ./app/javascript/css/style.css (./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css)
+Module Warning (from ./node_modules/postcss-loader/src/index.js):
+Warning
+
+(7:1) @import must precede all other statements (besides @charset)
+ @ ./app/javascript/css/style.css 2:14-153
+ @ ./app/javascript/packs/index.js
+
+  Rendered pages/home.html.erb within layouts/application (3405.4ms)
+Completed 200 OK in 3410ms (Views: 3409.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-05-24 09:37:01 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/about"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+webpacker (4.0.2) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-05-24 09:37:47 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+WARNING: We noticed you're using the `useBuiltIns` option without declaring a core-js version. Currently, we assume version 2.x when no version is passed. Since this default version will likely change in future versions of Babel, we recommend explicitly setting the core-js version you are using via the `corejs` option.
+
+You should also be sure that the version you pass to the `corejs` option matches the version specified in your `package.json`'s `dependencies` section. If it doesn't, you need to run one of the following commands:
+
+  npm install --save core-js@2    npm install --save core-js@3
+  yarn add core-js@2              yarn add core-js@3
+
+
+Hash: bd2b26ad791d63743668
+Version: webpack 4.32.1
+Time: 1714ms
+Built at: 05/24/2019 9:37:51 AM
+                                          Asset      Size            Chunks             Chunk Names
+         js/application-406ebf6a219af9827b19.js  1.15 MiB       application  [emitted]  application
+     js/application-406ebf6a219af9827b19.js.map   1.3 MiB       application  [emitted]  application
+               js/index-74ebd54a102046c30aa7.js  1.02 MiB             index  [emitted]  index
+           js/index-74ebd54a102046c30aa7.js.map  1.16 MiB             index  [emitted]  index
+    js/server_rendering-0cff8617592e884756fc.js  1.15 MiB  server_rendering  [emitted]  server_rendering
+js/server_rendering-0cff8617592e884756fc.js.map   1.3 MiB  server_rendering  [emitted]  server_rendering
+                                  manifest.json  1.01 KiB                    [emitted]  
+Entrypoint application = js/application-406ebf6a219af9827b19.js js/application-406ebf6a219af9827b19.js.map
+Entrypoint index = js/index-74ebd54a102046c30aa7.js js/index-74ebd54a102046c30aa7.js.map
+Entrypoint server_rendering = js/server_rendering-0cff8617592e884756fc.js js/server_rendering-0cff8617592e884756fc.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 239 bytes {application} {server_rendering} [built]
+[./app/javascript/css/style.css] 1.3 KiB {index} [built]
+[./app/javascript/packs/application.js] 193 bytes {application} [built]
+[./app/javascript/packs/index.js] 1.01 KiB {index} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/css/style.css] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css 1.14 KiB {index} [built] [1 warning]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 472 bytes {application} {index} {server_rendering} [built]
+    + 51 hidden modules
+
+WARNING in ./app/javascript/css/style.css (./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css)
+Module Warning (from ./node_modules/postcss-loader/src/index.js):
+Warning
+
+(7:1) @import must precede all other statements (besides @charset)
+ @ ./app/javascript/css/style.css 2:14-153
+ @ ./app/javascript/packs/index.js
+
+  Rendered pages/home.html.erb within layouts/application (3413.6ms)
+Completed 200 OK in 3418ms (Views: 3417.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-05-24 09:37:57 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 18ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-05-24 09:45:24 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+WARNING: We noticed you're using the `useBuiltIns` option without declaring a core-js version. Currently, we assume version 2.x when no version is passed. Since this default version will likely change in future versions of Babel, we recommend explicitly setting the core-js version you are using via the `corejs` option.
+
+You should also be sure that the version you pass to the `corejs` option matches the version specified in your `package.json`'s `dependencies` section. If it doesn't, you need to run one of the following commands:
+
+  npm install --save core-js@2    npm install --save core-js@3
+  yarn add core-js@2              yarn add core-js@3
+
+
+Hash: d2546130185cc30e91de
+Version: webpack 4.32.1
+Time: 1627ms
+Built at: 05/24/2019 9:45:27 AM
+                                          Asset      Size            Chunks             Chunk Names
+         js/application-406ebf6a219af9827b19.js  1.15 MiB       application  [emitted]  application
+     js/application-406ebf6a219af9827b19.js.map   1.3 MiB       application  [emitted]  application
+               js/index-7dac3702b990c9abac24.js  1.03 MiB             index  [emitted]  index
+           js/index-7dac3702b990c9abac24.js.map  1.16 MiB             index  [emitted]  index
+    js/server_rendering-0cff8617592e884756fc.js  1.15 MiB  server_rendering  [emitted]  server_rendering
+js/server_rendering-0cff8617592e884756fc.js.map   1.3 MiB  server_rendering  [emitted]  server_rendering
+                                  manifest.json  1.01 KiB                    [emitted]  
+Entrypoint application = js/application-406ebf6a219af9827b19.js js/application-406ebf6a219af9827b19.js.map
+Entrypoint index = js/index-7dac3702b990c9abac24.js js/index-7dac3702b990c9abac24.js.map
+Entrypoint server_rendering = js/server_rendering-0cff8617592e884756fc.js js/server_rendering-0cff8617592e884756fc.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 239 bytes {application} {server_rendering} [built]
+[./app/javascript/css/style.css] 1.3 KiB {index} [built]
+[./app/javascript/packs/application.js] 193 bytes {application} [built]
+[./app/javascript/packs/index.js] 1.21 KiB {index} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/css/style.css] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css 1.14 KiB {index} [built] [1 warning]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 472 bytes {application} {index} {server_rendering} [built]
+    + 51 hidden modules
+
+WARNING in ./app/javascript/css/style.css (./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css)
+Module Warning (from ./node_modules/postcss-loader/src/index.js):
+Warning
+
+(7:1) @import must precede all other statements (besides @charset)
+ @ ./app/javascript/css/style.css 2:14-153
+ @ ./app/javascript/packs/index.js
+
+  Rendered pages/home.html.erb within layouts/application (3325.5ms)
+Completed 200 OK in 3330ms (Views: 3329.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-05-24 09:45:40 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+WARNING: We noticed you're using the `useBuiltIns` option without declaring a core-js version. Currently, we assume version 2.x when no version is passed. Since this default version will likely change in future versions of Babel, we recommend explicitly setting the core-js version you are using via the `corejs` option.
+
+You should also be sure that the version you pass to the `corejs` option matches the version specified in your `package.json`'s `dependencies` section. If it doesn't, you need to run one of the following commands:
+
+  npm install --save core-js@2    npm install --save core-js@3
+  yarn add core-js@2              yarn add core-js@3
+
+
+Hash: 0834161ae96d3c5c33fb
+Version: webpack 4.32.1
+Time: 1730ms
+Built at: 05/24/2019 9:45:44 AM
+                                          Asset      Size            Chunks             Chunk Names
+         js/application-ecedb494e330d97c8bc2.js  1.15 MiB       application  [emitted]  application
+     js/application-ecedb494e330d97c8bc2.js.map   1.3 MiB       application  [emitted]  application
+               js/index-824949b7ce8b26f79fea.js  1.03 MiB             index  [emitted]  index
+           js/index-824949b7ce8b26f79fea.js.map  1.16 MiB             index  [emitted]  index
+    js/server_rendering-9a4c6b7d5a99f78c0461.js  1.15 MiB  server_rendering  [emitted]  server_rendering
+js/server_rendering-9a4c6b7d5a99f78c0461.js.map   1.3 MiB  server_rendering  [emitted]  server_rendering
+                                  manifest.json  1.01 KiB                    [emitted]  
+Entrypoint application = js/application-ecedb494e330d97c8bc2.js js/application-ecedb494e330d97c8bc2.js.map
+Entrypoint index = js/index-824949b7ce8b26f79fea.js js/index-824949b7ce8b26f79fea.js.map
+Entrypoint server_rendering = js/server_rendering-9a4c6b7d5a99f78c0461.js js/server_rendering-9a4c6b7d5a99f78c0461.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 239 bytes {application} {server_rendering} [built]
+[./app/javascript/css/style.css] 1.3 KiB {index} [built]
+[./app/javascript/packs/application.js] 193 bytes {application} [built]
+[./app/javascript/packs/index.js] 1.21 KiB {index} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/css/style.css] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css 1.14 KiB {index} [built] [1 warning]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 472 bytes {application} {index} {server_rendering} [built]
+    + 51 hidden modules
+
+WARNING in ./app/javascript/css/style.css (./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css)
+Module Warning (from ./node_modules/postcss-loader/src/index.js):
+Warning
+
+(7:1) @import must precede all other statements (besides @charset)
+ @ ./app/javascript/css/style.css 2:14-153
+ @ ./app/javascript/packs/index.js
+
+  Rendered pages/home.html.erb within layouts/application (3454.9ms)
+Completed 200 OK in 3460ms (Views: 3459.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-05-24 09:53:31 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+WARNING: We noticed you're using the `useBuiltIns` option without declaring a core-js version. Currently, we assume version 2.x when no version is passed. Since this default version will likely change in future versions of Babel, we recommend explicitly setting the core-js version you are using via the `corejs` option.
+
+You should also be sure that the version you pass to the `corejs` option matches the version specified in your `package.json`'s `dependencies` section. If it doesn't, you need to run one of the following commands:
+
+  npm install --save core-js@2    npm install --save core-js@3
+  yarn add core-js@2              yarn add core-js@3
+
+
+Hash: 609352ec712270f25e54
+Version: webpack 4.32.1
+Time: 1622ms
+Built at: 05/24/2019 9:53:34 AM
+                                          Asset      Size            Chunks             Chunk Names
+         js/application-6f7aab387db389309c7c.js  1.15 MiB       application  [emitted]  application
+     js/application-6f7aab387db389309c7c.js.map   1.3 MiB       application  [emitted]  application
+               js/index-ecb916699ea4befe9926.js  1.03 MiB             index  [emitted]  index
+           js/index-ecb916699ea4befe9926.js.map  1.16 MiB             index  [emitted]  index
+    js/server_rendering-95d6d29c0226106e5499.js  1.15 MiB  server_rendering  [emitted]  server_rendering
+js/server_rendering-95d6d29c0226106e5499.js.map   1.3 MiB  server_rendering  [emitted]  server_rendering
+                                  manifest.json  1.01 KiB                    [emitted]  
+Entrypoint application = js/application-6f7aab387db389309c7c.js js/application-6f7aab387db389309c7c.js.map
+Entrypoint index = js/index-ecb916699ea4befe9926.js js/index-ecb916699ea4befe9926.js.map
+Entrypoint server_rendering = js/server_rendering-95d6d29c0226106e5499.js js/server_rendering-95d6d29c0226106e5499.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 239 bytes {application} {server_rendering} [built]
+[./app/javascript/css/style.css] 1.3 KiB {index} [built]
+[./app/javascript/packs/application.js] 193 bytes {application} [built]
+[./app/javascript/packs/index.js] 1.01 KiB {index} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/css/style.css] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css 1.14 KiB {index} [built] [1 warning]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 472 bytes {application} {index} {server_rendering} [built]
+    + 51 hidden modules
+
+WARNING in ./app/javascript/css/style.css (./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css)
+Module Warning (from ./node_modules/postcss-loader/src/index.js):
+Warning
+
+(7:1) @import must precede all other statements (besides @charset)
+ @ ./app/javascript/css/style.css 2:14-153
+ @ ./app/javascript/packs/index.js
+
+  Rendered pages/home.html.erb within layouts/application (3313.3ms)
+Completed 200 OK in 3319ms (Views: 3318.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-05-24 09:55:39 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+WARNING: We noticed you're using the `useBuiltIns` option without declaring a core-js version. Currently, we assume version 2.x when no version is passed. Since this default version will likely change in future versions of Babel, we recommend explicitly setting the core-js version you are using via the `corejs` option.
+
+You should also be sure that the version you pass to the `corejs` option matches the version specified in your `package.json`'s `dependencies` section. If it doesn't, you need to run one of the following commands:
+
+  npm install --save core-js@2    npm install --save core-js@3
+  yarn add core-js@2              yarn add core-js@3
+
+
+Hash: 609352ec712270f25e54
+Version: webpack 4.32.1
+Time: 1672ms
+Built at: 05/24/2019 9:55:42 AM
+                                          Asset      Size            Chunks             Chunk Names
+         js/application-6f7aab387db389309c7c.js  1.15 MiB       application  [emitted]  application
+     js/application-6f7aab387db389309c7c.js.map   1.3 MiB       application  [emitted]  application
+               js/index-ecb916699ea4befe9926.js  1.03 MiB             index  [emitted]  index
+           js/index-ecb916699ea4befe9926.js.map  1.16 MiB             index  [emitted]  index
+    js/server_rendering-95d6d29c0226106e5499.js  1.15 MiB  server_rendering  [emitted]  server_rendering
+js/server_rendering-95d6d29c0226106e5499.js.map   1.3 MiB  server_rendering  [emitted]  server_rendering
+                                  manifest.json  1.01 KiB                    [emitted]  
+Entrypoint application = js/application-6f7aab387db389309c7c.js js/application-6f7aab387db389309c7c.js.map
+Entrypoint index = js/index-ecb916699ea4befe9926.js js/index-ecb916699ea4befe9926.js.map
+Entrypoint server_rendering = js/server_rendering-95d6d29c0226106e5499.js js/server_rendering-95d6d29c0226106e5499.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 239 bytes {application} {server_rendering} [built]
+[./app/javascript/css/style.css] 1.3 KiB {index} [built]
+[./app/javascript/packs/application.js] 193 bytes {application} [built]
+[./app/javascript/packs/index.js] 1.01 KiB {index} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/css/style.css] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css 1.14 KiB {index} [built] [1 warning]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 472 bytes {application} {index} {server_rendering} [built]
+    + 51 hidden modules
+
+WARNING in ./app/javascript/css/style.css (./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css)
+Module Warning (from ./node_modules/postcss-loader/src/index.js):
+Warning
+
+(7:1) @import must precede all other statements (besides @charset)
+ @ ./app/javascript/css/style.css 2:14-153
+ @ ./app/javascript/packs/index.js
+
+  Rendered pages/home.html.erb within layouts/application (3367.0ms)
+Completed 200 OK in 3372ms (Views: 3371.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-05-24 09:55:46 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-05-24 10:29:34 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+WARNING: We noticed you're using the `useBuiltIns` option without declaring a core-js version. Currently, we assume version 2.x when no version is passed. Since this default version will likely change in future versions of Babel, we recommend explicitly setting the core-js version you are using via the `corejs` option.
+
+You should also be sure that the version you pass to the `corejs` option matches the version specified in your `package.json`'s `dependencies` section. If it doesn't, you need to run one of the following commands:
+
+  npm install --save core-js@2    npm install --save core-js@3
+  yarn add core-js@2              yarn add core-js@3
+
+
+Hash: 7e4a1e7b660453b53964
+Version: webpack 4.32.1
+Time: 1593ms
+Built at: 05/24/2019 10:29:37 AM
+                                          Asset      Size            Chunks             Chunk Names
+         js/application-8994ae7891f1732ea7a0.js  1.14 MiB       application  [emitted]  application
+     js/application-8994ae7891f1732ea7a0.js.map   1.3 MiB       application  [emitted]  application
+               js/index-c9977b461a417f91bfc2.js  1.02 MiB             index  [emitted]  index
+           js/index-c9977b461a417f91bfc2.js.map  1.16 MiB             index  [emitted]  index
+    js/server_rendering-661d1ad11b1f91a988bf.js  1.15 MiB  server_rendering  [emitted]  server_rendering
+js/server_rendering-661d1ad11b1f91a988bf.js.map   1.3 MiB  server_rendering  [emitted]  server_rendering
+                                  manifest.json  1.01 KiB                    [emitted]  
+Entrypoint application = js/application-8994ae7891f1732ea7a0.js js/application-8994ae7891f1732ea7a0.js.map
+Entrypoint index = js/index-c9977b461a417f91bfc2.js js/index-c9977b461a417f91bfc2.js.map
+Entrypoint server_rendering = js/server_rendering-661d1ad11b1f91a988bf.js js/server_rendering-661d1ad11b1f91a988bf.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 239 bytes {application} {server_rendering} [built]
+[./app/javascript/css/style.css] 1.3 KiB {index} [built]
+[./app/javascript/packs/application.js] 193 bytes {application} [built]
+[./app/javascript/packs/index.js] 561 bytes {index} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/css/style.css] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css 1.14 KiB {index} [built] [1 warning]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 472 bytes {application} {index} {server_rendering} [built]
+    + 51 hidden modules
+
+WARNING in ./app/javascript/css/style.css (./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css)
+Module Warning (from ./node_modules/postcss-loader/src/index.js):
+Warning
+
+(7:1) @import must precede all other statements (besides @charset)
+ @ ./app/javascript/css/style.css 2:14-153
+ @ ./app/javascript/packs/index.js
+
+  Rendered pages/home.html.erb within layouts/application (3237.7ms)
+Completed 200 OK in 3242ms (Views: 3241.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-05-24 10:30:51 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+WARNING: We noticed you're using the `useBuiltIns` option without declaring a core-js version. Currently, we assume version 2.x when no version is passed. Since this default version will likely change in future versions of Babel, we recommend explicitly setting the core-js version you are using via the `corejs` option.
+
+You should also be sure that the version you pass to the `corejs` option matches the version specified in your `package.json`'s `dependencies` section. If it doesn't, you need to run one of the following commands:
+
+  npm install --save core-js@2    npm install --save core-js@3
+  yarn add core-js@2              yarn add core-js@3
+
+
+Hash: 65966cdd178d3f4c637c
+Version: webpack 4.32.1
+Time: 1599ms
+Built at: 05/24/2019 10:30:55 AM
+                                          Asset      Size            Chunks             Chunk Names
+         js/application-6c85bacf0180e021902b.js  1.14 MiB       application  [emitted]  application
+     js/application-6c85bacf0180e021902b.js.map   1.3 MiB       application  [emitted]  application
+               js/index-5de7893632370d36c006.js  1.02 MiB             index  [emitted]  index
+           js/index-5de7893632370d36c006.js.map  1.16 MiB             index  [emitted]  index
+    js/server_rendering-c61a28b59830b7606754.js  1.15 MiB  server_rendering  [emitted]  server_rendering
+js/server_rendering-c61a28b59830b7606754.js.map   1.3 MiB  server_rendering  [emitted]  server_rendering
+                                  manifest.json  1.01 KiB                    [emitted]  
+Entrypoint application = js/application-6c85bacf0180e021902b.js js/application-6c85bacf0180e021902b.js.map
+Entrypoint index = js/index-5de7893632370d36c006.js js/index-5de7893632370d36c006.js.map
+Entrypoint server_rendering = js/server_rendering-c61a28b59830b7606754.js js/server_rendering-c61a28b59830b7606754.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 239 bytes {application} {server_rendering} [built]
+[./app/javascript/css/style.css] 1.3 KiB {index} [built]
+[./app/javascript/packs/application.js] 193 bytes {application} [built]
+[./app/javascript/packs/index.js] 561 bytes {index} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/css/style.css] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css 1.14 KiB {index} [built] [1 warning]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 472 bytes {application} {index} {server_rendering} [built]
+    + 51 hidden modules
+
+WARNING in ./app/javascript/css/style.css (./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css)
+Module Warning (from ./node_modules/postcss-loader/src/index.js):
+Warning
+
+(7:1) @import must precede all other statements (besides @charset)
+ @ ./app/javascript/css/style.css 2:14-153
+ @ ./app/javascript/packs/index.js
+
+  Rendered pages/home.html.erb within layouts/application (3259.8ms)
+Completed 200 OK in 3264ms (Views: 3263.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-05-24 10:31:48 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+WARNING: We noticed you're using the `useBuiltIns` option without declaring a core-js version. Currently, we assume version 2.x when no version is passed. Since this default version will likely change in future versions of Babel, we recommend explicitly setting the core-js version you are using via the `corejs` option.
+
+You should also be sure that the version you pass to the `corejs` option matches the version specified in your `package.json`'s `dependencies` section. If it doesn't, you need to run one of the following commands:
+
+  npm install --save core-js@2    npm install --save core-js@3
+  yarn add core-js@2              yarn add core-js@3
+
+
+Hash: b912bce7bf188db20aa5
+Version: webpack 4.32.1
+Time: 1613ms
+Built at: 05/24/2019 10:31:52 AM
+                                          Asset      Size            Chunks             Chunk Names
+         js/application-41cad37ece0cf9d31b2f.js  1.14 MiB       application  [emitted]  application
+     js/application-41cad37ece0cf9d31b2f.js.map   1.3 MiB       application  [emitted]  application
+               js/index-bf639933aa81730f3fb8.js  1.02 MiB             index  [emitted]  index
+           js/index-bf639933aa81730f3fb8.js.map  1.16 MiB             index  [emitted]  index
+    js/server_rendering-50ccc30f895de9c04707.js  1.14 MiB  server_rendering  [emitted]  server_rendering
+js/server_rendering-50ccc30f895de9c04707.js.map   1.3 MiB  server_rendering  [emitted]  server_rendering
+                                  manifest.json  1.01 KiB                    [emitted]  
+Entrypoint application = js/application-41cad37ece0cf9d31b2f.js js/application-41cad37ece0cf9d31b2f.js.map
+Entrypoint index = js/index-bf639933aa81730f3fb8.js js/index-bf639933aa81730f3fb8.js.map
+Entrypoint server_rendering = js/server_rendering-50ccc30f895de9c04707.js js/server_rendering-50ccc30f895de9c04707.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 239 bytes {application} {server_rendering} [built]
+[./app/javascript/css/style.css] 1.3 KiB {index} [built]
+[./app/javascript/packs/application.js] 193 bytes {application} [built]
+[./app/javascript/packs/index.js] 561 bytes {index} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/css/style.css] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css 1.14 KiB {index} [built] [1 warning]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 472 bytes {application} {index} {server_rendering} [built]
+    + 51 hidden modules
+
+WARNING in ./app/javascript/css/style.css (./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css)
+Module Warning (from ./node_modules/postcss-loader/src/index.js):
+Warning
+
+(7:1) @import must precede all other statements (besides @charset)
+ @ ./app/javascript/css/style.css 2:14-153
+ @ ./app/javascript/packs/index.js
+
+  Rendered pages/home.html.erb within layouts/application (3277.0ms)
+Completed 200 OK in 3281ms (Views: 3280.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-05-24 10:32:16 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+WARNING: We noticed you're using the `useBuiltIns` option without declaring a core-js version. Currently, we assume version 2.x when no version is passed. Since this default version will likely change in future versions of Babel, we recommend explicitly setting the core-js version you are using via the `corejs` option.
+
+You should also be sure that the version you pass to the `corejs` option matches the version specified in your `package.json`'s `dependencies` section. If it doesn't, you need to run one of the following commands:
+
+  npm install --save core-js@2    npm install --save core-js@3
+  yarn add core-js@2              yarn add core-js@3
+
+
+Hash: 07ac909f2f151291f55a
+Version: webpack 4.32.1
+Time: 1371ms
+Built at: 05/24/2019 10:32:19 AM
+                                          Asset      Size            Chunks             Chunk Names
+         js/application-f7701cd08d2029bd77e6.js  1.01 MiB       application  [emitted]  application
+     js/application-f7701cd08d2029bd77e6.js.map  1.16 MiB       application  [emitted]  application
+               js/index-22df2335772a51d1bcc6.js   906 KiB             index  [emitted]  index
+           js/index-22df2335772a51d1bcc6.js.map  1.02 MiB             index  [emitted]  index
+    js/server_rendering-6a294bfbdc1411c2f3af.js  1.01 MiB  server_rendering  [emitted]  server_rendering
+js/server_rendering-6a294bfbdc1411c2f3af.js.map  1.16 MiB  server_rendering  [emitted]  server_rendering
+                                  manifest.json  1.01 KiB                    [emitted]  
+Entrypoint application = js/application-f7701cd08d2029bd77e6.js js/application-f7701cd08d2029bd77e6.js.map
+Entrypoint index = js/index-22df2335772a51d1bcc6.js js/index-22df2335772a51d1bcc6.js.map
+Entrypoint server_rendering = js/server_rendering-6a294bfbdc1411c2f3af.js js/server_rendering-6a294bfbdc1411c2f3af.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 239 bytes {application} {server_rendering} [built]
+[./app/javascript/css/style.css] 1.3 KiB {index} [built]
+[./app/javascript/packs/application.js] 193 bytes {application} [built]
+[./app/javascript/packs/index.js] 561 bytes {index} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/css/style.css] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css 1.14 KiB {index} [built] [1 warning]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 472 bytes {application} {index} {server_rendering} [built]
+    + 29 hidden modules
+
+WARNING in ./app/javascript/css/style.css (./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css)
+Module Warning (from ./node_modules/postcss-loader/src/index.js):
+Warning
+
+(7:1) @import must precede all other statements (besides @charset)
+ @ ./app/javascript/css/style.css 2:14-153
+ @ ./app/javascript/packs/index.js
+
+  Rendered pages/home.html.erb within layouts/application (3063.5ms)
+Completed 200 OK in 3068ms (Views: 3067.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-05-24 10:33:26 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+WARNING: We noticed you're using the `useBuiltIns` option without declaring a core-js version. Currently, we assume version 2.x when no version is passed. Since this default version will likely change in future versions of Babel, we recommend explicitly setting the core-js version you are using via the `corejs` option.
+
+You should also be sure that the version you pass to the `corejs` option matches the version specified in your `package.json`'s `dependencies` section. If it doesn't, you need to run one of the following commands:
+
+  npm install --save core-js@2    npm install --save core-js@3
+  yarn add core-js@2              yarn add core-js@3
+
+
+Hash: ff28ac8c22d7f507f9a7
+Version: webpack 4.32.1
+Time: 1412ms
+Built at: 05/24/2019 10:33:29 AM
+                                          Asset      Size            Chunks             Chunk Names
+         js/application-8af4b999c87c31a9064a.js  1.01 MiB       application  [emitted]  application
+     js/application-8af4b999c87c31a9064a.js.map  1.16 MiB       application  [emitted]  application
+               js/index-ddddf3d13b2b0bfb89ce.js   906 KiB             index  [emitted]  index
+           js/index-ddddf3d13b2b0bfb89ce.js.map  1.02 MiB             index  [emitted]  index
+    js/server_rendering-89a3dc69896dc824a34d.js  1.01 MiB  server_rendering  [emitted]  server_rendering
+js/server_rendering-89a3dc69896dc824a34d.js.map  1.16 MiB  server_rendering  [emitted]  server_rendering
+                                  manifest.json  1.01 KiB                    [emitted]  
+Entrypoint application = js/application-8af4b999c87c31a9064a.js js/application-8af4b999c87c31a9064a.js.map
+Entrypoint index = js/index-ddddf3d13b2b0bfb89ce.js js/index-ddddf3d13b2b0bfb89ce.js.map
+Entrypoint server_rendering = js/server_rendering-89a3dc69896dc824a34d.js js/server_rendering-89a3dc69896dc824a34d.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 239 bytes {application} {server_rendering} [built]
+[./app/javascript/css/style.css] 1.3 KiB {index} [built]
+[./app/javascript/packs/application.js] 193 bytes {application} [built]
+[./app/javascript/packs/index.js] 561 bytes {index} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/css/style.css] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css 1.14 KiB {index} [built] [1 warning]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 472 bytes {application} {index} {server_rendering} [built]
+    + 29 hidden modules
+
+WARNING in ./app/javascript/css/style.css (./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css)
+Module Warning (from ./node_modules/postcss-loader/src/index.js):
+Warning
+
+(7:1) @import must precede all other statements (besides @charset)
+ @ ./app/javascript/css/style.css 2:14-153
+ @ ./app/javascript/packs/index.js
+
+  Rendered pages/home.html.erb within layouts/application (3053.6ms)
+Completed 200 OK in 3058ms (Views: 3057.5ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1117399914178062060)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateTodos (20190524083836)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (18.8ms)[0m  [1m[35mCREATE TABLE "todos" ("id" bigserial primary key, "task" character varying, "completed" boolean, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20190524083836_create_todos.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190524083836"]]
+  ↳ bin/rails:9
+  [1m[35m (3.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(1117399914178062060)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTodo Create (0.5ms)[0m  [1m[32mINSERT INTO "todos" ("task", "completed", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["task", "Do the laundry"], ["completed", false], ["created_at", "2019-05-24 08:43:32.698676"], ["updated_at", "2019-05-24 08:43:32.698676"]]
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT  "todos".* FROM "todos" ORDER BY "todos"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTodo Create (0.7ms)[0m  [1m[32mINSERT INTO "todos" ("task", "completed", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["task", "Walk the dog"], ["completed", false], ["created_at", "2019-05-24 08:43:56.274811"], ["updated_at", "2019-05-24 08:43:56.274811"]]
+  [1m[35m (4.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT  "todos".* FROM "todos" LIMIT $1[0m  [["LIMIT", 11]]
+Started GET "/" for 127.0.0.1 at 2019-05-24 12:38:54 +0200
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/rdzcn/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/rdzcn/code/rdzcn/react-rails-todoApp/app/views/pages/home.html.erb:1: syntax error, unexpected ',', expecting ')'
+...end=( react_component('index'), { todos: @todos } );@output_...
+...                              ^):
+  
+app/views/pages/home.html.erb:1: syntax error, unexpected ',', expecting ')'
+Started GET "/" for 127.0.0.1 at 2019-05-24 12:39:38 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/rdzcn/code/rdzcn/react-rails-todoApp/app/views/pages/home.html.erb:1: syntax error, unexpected ',', expecting ')'
+...pend=( react_component('Todo'), { todos: @todos } );@output_...
+...                              ^):
+  
+app/views/pages/home.html.erb:1: syntax error, unexpected ',', expecting ')'
+Started GET "/" for 127.0.0.1 at 2019-05-24 12:40:18 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/rdzcn/code/rdzcn/react-rails-todoApp/app/views/pages/home.html.erb:2: syntax error, unexpected ',', expecting ')'
+...pend=( react_component('Todo'), { todos: @todos } );
+...                              ^):
+  
+app/views/pages/home.html.erb:2: syntax error, unexpected ',', expecting ')'
+Started GET "/" for 127.0.0.1 at 2019-05-24 12:41:02 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+WARNING: We noticed you're using the `useBuiltIns` option without declaring a core-js version. Currently, we assume version 2.x when no version is passed. Since this default version will likely change in future versions of Babel, we recommend explicitly setting the core-js version you are using via the `corejs` option.
+
+You should also be sure that the version you pass to the `corejs` option matches the version specified in your `package.json`'s `dependencies` section. If it doesn't, you need to run one of the following commands:
+
+  npm install --save core-js@2    npm install --save core-js@3
+  yarn add core-js@2              yarn add core-js@3
+
+
+Hash: 358c1d2aeb27e9cd5ef0
+Version: webpack 4.32.1
+Time: 1494ms
+Built at: 05/24/2019 12:41:05 PM
+                                          Asset      Size            Chunks             Chunk Names
+         js/application-638e75a7d2e3bcdff53c.js  1.04 MiB       application  [emitted]  application
+     js/application-638e75a7d2e3bcdff53c.js.map  1.19 MiB       application  [emitted]  application
+               js/index-22df2335772a51d1bcc6.js   906 KiB             index  [emitted]  index
+           js/index-22df2335772a51d1bcc6.js.map  1.02 MiB             index  [emitted]  index
+    js/server_rendering-20fceef48703dd7a7bce.js  1.04 MiB  server_rendering  [emitted]  server_rendering
+js/server_rendering-20fceef48703dd7a7bce.js.map  1.19 MiB  server_rendering  [emitted]  server_rendering
+                                  manifest.json  1.01 KiB                    [emitted]  
+Entrypoint application = js/application-638e75a7d2e3bcdff53c.js js/application-638e75a7d2e3bcdff53c.js.map
+Entrypoint index = js/index-22df2335772a51d1bcc6.js js/index-22df2335772a51d1bcc6.js.map
+Entrypoint server_rendering = js/server_rendering-20fceef48703dd7a7bce.js js/server_rendering-20fceef48703dd7a7bce.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 264 bytes {application} {server_rendering} [built]
+[./app/javascript/css/style.css] 1.3 KiB {index} [built]
+[./app/javascript/packs/application.js] 193 bytes {application} [built]
+[./app/javascript/packs/index.js] 561 bytes {index} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/css/style.css] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css 1.14 KiB {index} [built] [1 warning]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 472 bytes {application} {index} {server_rendering} [built]
+    + 34 hidden modules
+
+WARNING in ./app/javascript/css/style.css (./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css)
+Module Warning (from ./node_modules/postcss-loader/src/index.js):
+Warning
+
+(7:1) @import must precede all other statements (besides @charset)
+ @ ./app/javascript/css/style.css 2:14-153
+ @ ./app/javascript/packs/index.js
+
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/pages/home.html.erb:2
+  Rendered pages/home.html.erb within layouts/application (3240.5ms)
+Completed 200 OK in 3247ms (Views: 3242.1ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-05-24 12:42:00 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/pages/home.html.erb:2
+  Rendered pages/home.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 22ms (Views: 20.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-05-24 12:42:08 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/pages/home.html.erb:2
+  Rendered pages/home.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 15ms (Views: 13.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-05-24 12:42:35 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mTodo Load (0.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/pages/home.html.erb:2
+  Rendered pages/home.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 10ms (Views: 8.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-05-24 13:03:13 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/pages/home.html.erb:2
+  Rendered pages/home.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-05-24 13:03:30 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mTodo Load (0.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/pages/home.html.erb:2
+  Rendered pages/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-05-24 21:51:20 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/pages/home.html.erb:2
+  Rendered pages/home.html.erb within layouts/application (9.8ms)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+WARNING: We noticed you're using the `useBuiltIns` option without declaring a core-js version. Currently, we assume version 2.x when no version is passed. Since this default version will likely change in future versions of Babel, we recommend explicitly setting the core-js version you are using via the `corejs` option.
+
+You should also be sure that the version you pass to the `corejs` option matches the version specified in your `package.json`'s `dependencies` section. If it doesn't, you need to run one of the following commands:
+
+  npm install --save core-js@2    npm install --save core-js@3
+  yarn add core-js@2              yarn add core-js@3
+
+
+Hash: b33120cece503f144e33
+Version: webpack 4.32.1
+Time: 1498ms
+Built at: 05/24/2019 9:51:24 PM
+                                          Asset      Size            Chunks             Chunk Names
+         js/application-f92b8e54bc33f14b83c2.js  1.06 MiB       application  [emitted]  application
+     js/application-f92b8e54bc33f14b83c2.js.map  1.21 MiB       application  [emitted]  application
+               js/index-ae1b14e01ad9a7e064a9.js   906 KiB             index  [emitted]  index
+           js/index-ae1b14e01ad9a7e064a9.js.map  1.02 MiB             index  [emitted]  index
+    js/server_rendering-1602af1e6a9cc9bbe328.js  1.06 MiB  server_rendering  [emitted]  server_rendering
+js/server_rendering-1602af1e6a9cc9bbe328.js.map  1.21 MiB  server_rendering  [emitted]  server_rendering
+                                  manifest.json  1.01 KiB                    [emitted]  
+Entrypoint application = js/application-f92b8e54bc33f14b83c2.js js/application-f92b8e54bc33f14b83c2.js.map
+Entrypoint index = js/index-ae1b14e01ad9a7e064a9.js js/index-ae1b14e01ad9a7e064a9.js.map
+Entrypoint server_rendering = js/server_rendering-1602af1e6a9cc9bbe328.js js/server_rendering-1602af1e6a9cc9bbe328.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 264 bytes {application} {server_rendering} [built]
+[./app/javascript/css/style.css] 1.3 KiB {application} {index} {server_rendering} [built]
+[./app/javascript/packs/application.js] 193 bytes {application} [built]
+[./app/javascript/packs/index.js] 561 bytes {index} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/css/style.css] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css 1.14 KiB {application} {index} {server_rendering} [built] [1 warning]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 472 bytes {application} {index} {server_rendering} [built]
+    + 34 hidden modules
+
+WARNING in ./app/javascript/css/style.css (./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css)
+Module Warning (from ./node_modules/postcss-loader/src/index.js):
+Warning
+
+(7:1) @import must precede all other statements (besides @charset)
+ @ ./app/javascript/css/style.css 2:14-153
+ @ ./app/javascript/packs/index.js
+
+Completed 200 OK in 3203ms (Views: 3196.3ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-05-24 21:54:24 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/pages/home.html.erb:2
+  Rendered pages/home.html.erb within layouts/application (7.1ms)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+WARNING: We noticed you're using the `useBuiltIns` option without declaring a core-js version. Currently, we assume version 2.x when no version is passed. Since this default version will likely change in future versions of Babel, we recommend explicitly setting the core-js version you are using via the `corejs` option.
+
+You should also be sure that the version you pass to the `corejs` option matches the version specified in your `package.json`'s `dependencies` section. If it doesn't, you need to run one of the following commands:
+
+  npm install --save core-js@2    npm install --save core-js@3
+  yarn add core-js@2              yarn add core-js@3
+
+
+Hash: 2302c5f8932af40eff18
+Version: webpack 4.32.1
+Time: 1416ms
+Built at: 05/24/2019 9:54:27 PM
+                                          Asset      Size            Chunks             Chunk Names
+         js/application-ddeecd30d886fa94e940.js  1.06 MiB       application  [emitted]  application
+     js/application-ddeecd30d886fa94e940.js.map  1.22 MiB       application  [emitted]  application
+               js/index-34e154e5c65473a1d8f9.js   905 KiB             index  [emitted]  index
+           js/index-34e154e5c65473a1d8f9.js.map  1.02 MiB             index  [emitted]  index
+    js/server_rendering-91519320bf198d808b45.js  1.06 MiB  server_rendering  [emitted]  server_rendering
+js/server_rendering-91519320bf198d808b45.js.map  1.22 MiB  server_rendering  [emitted]  server_rendering
+                                  manifest.json  1.01 KiB                    [emitted]  
+Entrypoint application = js/application-ddeecd30d886fa94e940.js js/application-ddeecd30d886fa94e940.js.map
+Entrypoint index = js/index-34e154e5c65473a1d8f9.js js/index-34e154e5c65473a1d8f9.js.map
+Entrypoint server_rendering = js/server_rendering-91519320bf198d808b45.js js/server_rendering-91519320bf198d808b45.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 264 bytes {application} {server_rendering} [built]
+[./app/javascript/css/style.css] 1.3 KiB {application} {index} {server_rendering} [built]
+[./app/javascript/packs/application.js] 193 bytes {application} [built]
+[./app/javascript/packs/index.js] 561 bytes {index} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/css/style.css] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css 1.14 KiB {application} {index} {server_rendering} [built] [1 warning]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 472 bytes {application} {index} {server_rendering} [built]
+    + 34 hidden modules
+
+WARNING in ./app/javascript/css/style.css (./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css)
+Module Warning (from ./node_modules/postcss-loader/src/index.js):
+Warning
+
+(7:1) @import must precede all other statements (besides @charset)
+ @ ./app/javascript/css/style.css 2:14-153
+ @ ./app/javascript/packs/index.js
+
+Completed 200 OK in 3104ms (Views: 3099.8ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-05-24 22:02:19 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/pages/home.html.erb:2
+  Rendered pages/home.html.erb within layouts/application (8.6ms)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+WARNING: We noticed you're using the `useBuiltIns` option without declaring a core-js version. Currently, we assume version 2.x when no version is passed. Since this default version will likely change in future versions of Babel, we recommend explicitly setting the core-js version you are using via the `corejs` option.
+
+You should also be sure that the version you pass to the `corejs` option matches the version specified in your `package.json`'s `dependencies` section. If it doesn't, you need to run one of the following commands:
+
+  npm install --save core-js@2    npm install --save core-js@3
+  yarn add core-js@2              yarn add core-js@3
+
+
+Hash: d903bc0d7a808d187737
+Version: webpack 4.32.1
+Time: 1422ms
+Built at: 05/24/2019 10:02:22 PM
+                                          Asset      Size            Chunks             Chunk Names
+         js/application-8714e98ff83c3b75ce47.js  1.06 MiB       application  [emitted]  application
+     js/application-8714e98ff83c3b75ce47.js.map  1.22 MiB       application  [emitted]  application
+               js/index-34e154e5c65473a1d8f9.js   905 KiB             index  [emitted]  index
+           js/index-34e154e5c65473a1d8f9.js.map  1.02 MiB             index  [emitted]  index
+    js/server_rendering-d1b2060113371a93c2e1.js  1.06 MiB  server_rendering  [emitted]  server_rendering
+js/server_rendering-d1b2060113371a93c2e1.js.map  1.22 MiB  server_rendering  [emitted]  server_rendering
+                                  manifest.json  1.01 KiB                    [emitted]  
+Entrypoint application = js/application-8714e98ff83c3b75ce47.js js/application-8714e98ff83c3b75ce47.js.map
+Entrypoint index = js/index-34e154e5c65473a1d8f9.js js/index-34e154e5c65473a1d8f9.js.map
+Entrypoint server_rendering = js/server_rendering-d1b2060113371a93c2e1.js js/server_rendering-d1b2060113371a93c2e1.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 264 bytes {application} {server_rendering} [built]
+[./app/javascript/css/style.css] 1.3 KiB {application} {index} {server_rendering} [built]
+[./app/javascript/packs/application.js] 193 bytes {application} [built]
+[./app/javascript/packs/index.js] 561 bytes {index} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/css/style.css] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css 1.14 KiB {application} {index} {server_rendering} [built] [1 warning]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 472 bytes {application} {index} {server_rendering} [built]
+    + 34 hidden modules
+
+WARNING in ./app/javascript/css/style.css (./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css)
+Module Warning (from ./node_modules/postcss-loader/src/index.js):
+Warning
+
+(7:1) @import must precede all other statements (besides @charset)
+ @ ./app/javascript/css/style.css 2:14-153
+ @ ./app/javascript/packs/index.js
+
+Completed 200 OK in 3146ms (Views: 3139.9ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-05-24 22:03:06 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/pages/home.html.erb:2
+  Rendered pages/home.html.erb within layouts/application (7.1ms)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+WARNING: We noticed you're using the `useBuiltIns` option without declaring a core-js version. Currently, we assume version 2.x when no version is passed. Since this default version will likely change in future versions of Babel, we recommend explicitly setting the core-js version you are using via the `corejs` option.
+
+You should also be sure that the version you pass to the `corejs` option matches the version specified in your `package.json`'s `dependencies` section. If it doesn't, you need to run one of the following commands:
+
+  npm install --save core-js@2    npm install --save core-js@3
+  yarn add core-js@2              yarn add core-js@3
+
+
+Hash: 0a017b0d470ed8e3e26d
+Version: webpack 4.32.1
+Time: 1481ms
+Built at: 05/24/2019 10:03:09 PM
+                                          Asset      Size            Chunks             Chunk Names
+         js/application-3d858328f16e4f741a9c.js  1.06 MiB       application  [emitted]  application
+     js/application-3d858328f16e4f741a9c.js.map  1.22 MiB       application  [emitted]  application
+               js/index-34e154e5c65473a1d8f9.js   905 KiB             index  [emitted]  index
+           js/index-34e154e5c65473a1d8f9.js.map  1.02 MiB             index  [emitted]  index
+    js/server_rendering-e0956ec59d793fc17c95.js  1.06 MiB  server_rendering  [emitted]  server_rendering
+js/server_rendering-e0956ec59d793fc17c95.js.map  1.22 MiB  server_rendering  [emitted]  server_rendering
+                                  manifest.json  1.01 KiB                    [emitted]  
+Entrypoint application = js/application-3d858328f16e4f741a9c.js js/application-3d858328f16e4f741a9c.js.map
+Entrypoint index = js/index-34e154e5c65473a1d8f9.js js/index-34e154e5c65473a1d8f9.js.map
+Entrypoint server_rendering = js/server_rendering-e0956ec59d793fc17c95.js js/server_rendering-e0956ec59d793fc17c95.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 264 bytes {application} {server_rendering} [built]
+[./app/javascript/css/style.css] 1.3 KiB {application} {index} {server_rendering} [built]
+[./app/javascript/packs/application.js] 193 bytes {application} [built]
+[./app/javascript/packs/index.js] 561 bytes {index} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/css/style.css] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css 1.14 KiB {application} {index} {server_rendering} [built] [1 warning]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 472 bytes {application} {index} {server_rendering} [built]
+    + 34 hidden modules
+
+WARNING in ./app/javascript/css/style.css (./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css)
+Module Warning (from ./node_modules/postcss-loader/src/index.js):
+Warning
+
+(7:1) @import must precede all other statements (besides @charset)
+ @ ./app/javascript/css/style.css 2:14-153
+ @ ./app/javascript/packs/index.js
+
+Completed 200 OK in 3177ms (Views: 3172.8ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-05-24 22:03:39 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mTodo Load (0.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/pages/home.html.erb:2
+  Rendered pages/home.html.erb within layouts/application (10.6ms)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+WARNING: We noticed you're using the `useBuiltIns` option without declaring a core-js version. Currently, we assume version 2.x when no version is passed. Since this default version will likely change in future versions of Babel, we recommend explicitly setting the core-js version you are using via the `corejs` option.
+
+You should also be sure that the version you pass to the `corejs` option matches the version specified in your `package.json`'s `dependencies` section. If it doesn't, you need to run one of the following commands:
+
+  npm install --save core-js@2    npm install --save core-js@3
+  yarn add core-js@2              yarn add core-js@3
+
+
+Hash: 4d2507174f75717db522
+Version: webpack 4.32.1
+Time: 1473ms
+Built at: 05/24/2019 10:03:42 PM
+                                          Asset      Size            Chunks             Chunk Names
+         js/application-a86742f1e39a0038e641.js  1.06 MiB       application  [emitted]  application
+     js/application-a86742f1e39a0038e641.js.map  1.22 MiB       application  [emitted]  application
+               js/index-34e154e5c65473a1d8f9.js   905 KiB             index  [emitted]  index
+           js/index-34e154e5c65473a1d8f9.js.map  1.02 MiB             index  [emitted]  index
+    js/server_rendering-d5e71570f1ae42e6f73f.js  1.06 MiB  server_rendering  [emitted]  server_rendering
+js/server_rendering-d5e71570f1ae42e6f73f.js.map  1.22 MiB  server_rendering  [emitted]  server_rendering
+                                  manifest.json  1.01 KiB                    [emitted]  
+Entrypoint application = js/application-a86742f1e39a0038e641.js js/application-a86742f1e39a0038e641.js.map
+Entrypoint index = js/index-34e154e5c65473a1d8f9.js js/index-34e154e5c65473a1d8f9.js.map
+Entrypoint server_rendering = js/server_rendering-d5e71570f1ae42e6f73f.js js/server_rendering-d5e71570f1ae42e6f73f.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 264 bytes {application} {server_rendering} [built]
+[./app/javascript/css/style.css] 1.3 KiB {application} {index} {server_rendering} [built]
+[./app/javascript/packs/application.js] 193 bytes {application} [built]
+[./app/javascript/packs/index.js] 561 bytes {index} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/css/style.css] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css 1.14 KiB {application} {index} {server_rendering} [built] [1 warning]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 472 bytes {application} {index} {server_rendering} [built]
+    + 34 hidden modules
+
+WARNING in ./app/javascript/css/style.css (./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css)
+Module Warning (from ./node_modules/postcss-loader/src/index.js):
+Warning
+
+(7:1) @import must precede all other statements (besides @charset)
+ @ ./app/javascript/css/style.css 2:14-153
+ @ ./app/javascript/packs/index.js
+
+Completed 200 OK in 3162ms (Views: 3156.9ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-05-24 22:03:58 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mTodo Load (0.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/pages/home.html.erb:2
+  Rendered pages/home.html.erb within layouts/application (7.6ms)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+WARNING: We noticed you're using the `useBuiltIns` option without declaring a core-js version. Currently, we assume version 2.x when no version is passed. Since this default version will likely change in future versions of Babel, we recommend explicitly setting the core-js version you are using via the `corejs` option.
+
+You should also be sure that the version you pass to the `corejs` option matches the version specified in your `package.json`'s `dependencies` section. If it doesn't, you need to run one of the following commands:
+
+  npm install --save core-js@2    npm install --save core-js@3
+  yarn add core-js@2              yarn add core-js@3
+
+
+Hash: 07bec9eedf68180b06ce
+Version: webpack 4.32.1
+Time: 1506ms
+Built at: 05/24/2019 10:04:01 PM
+                                          Asset      Size            Chunks             Chunk Names
+         js/application-b4824576e3b15d98750a.js  1.06 MiB       application  [emitted]  application
+     js/application-b4824576e3b15d98750a.js.map  1.22 MiB       application  [emitted]  application
+               js/index-34e154e5c65473a1d8f9.js   905 KiB             index  [emitted]  index
+           js/index-34e154e5c65473a1d8f9.js.map  1.02 MiB             index  [emitted]  index
+    js/server_rendering-dcb49c891e8e4037201f.js  1.06 MiB  server_rendering  [emitted]  server_rendering
+js/server_rendering-dcb49c891e8e4037201f.js.map  1.22 MiB  server_rendering  [emitted]  server_rendering
+                                  manifest.json  1.01 KiB                    [emitted]  
+Entrypoint application = js/application-b4824576e3b15d98750a.js js/application-b4824576e3b15d98750a.js.map
+Entrypoint index = js/index-34e154e5c65473a1d8f9.js js/index-34e154e5c65473a1d8f9.js.map
+Entrypoint server_rendering = js/server_rendering-dcb49c891e8e4037201f.js js/server_rendering-dcb49c891e8e4037201f.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 264 bytes {application} {server_rendering} [built]
+[./app/javascript/css/style.css] 1.3 KiB {application} {index} {server_rendering} [built]
+[./app/javascript/packs/application.js] 193 bytes {application} [built]
+[./app/javascript/packs/index.js] 561 bytes {index} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/css/style.css] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css 1.14 KiB {application} {index} {server_rendering} [built] [1 warning]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 472 bytes {application} {index} {server_rendering} [built]
+    + 34 hidden modules
+
+WARNING in ./app/javascript/css/style.css (./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css)
+Module Warning (from ./node_modules/postcss-loader/src/index.js):
+Warning
+
+(7:1) @import must precede all other statements (besides @charset)
+ @ ./app/javascript/css/style.css 2:14-153
+ @ ./app/javascript/packs/index.js
+
+Completed 200 OK in 3203ms (Views: 3198.6ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-05-24 22:04:27 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/pages/home.html.erb:2
+  Rendered pages/home.html.erb within layouts/application (7.5ms)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+WARNING: We noticed you're using the `useBuiltIns` option without declaring a core-js version. Currently, we assume version 2.x when no version is passed. Since this default version will likely change in future versions of Babel, we recommend explicitly setting the core-js version you are using via the `corejs` option.
+
+You should also be sure that the version you pass to the `corejs` option matches the version specified in your `package.json`'s `dependencies` section. If it doesn't, you need to run one of the following commands:
+
+  npm install --save core-js@2    npm install --save core-js@3
+  yarn add core-js@2              yarn add core-js@3
+
+
+Hash: b72624bdfedcab540bd3
+Version: webpack 4.32.1
+Time: 1544ms
+Built at: 05/24/2019 10:04:30 PM
+                                          Asset      Size            Chunks             Chunk Names
+         js/application-0ebe55f0a04ced46d4db.js  1.06 MiB       application  [emitted]  application
+     js/application-0ebe55f0a04ced46d4db.js.map  1.22 MiB       application  [emitted]  application
+               js/index-34e154e5c65473a1d8f9.js   905 KiB             index  [emitted]  index
+           js/index-34e154e5c65473a1d8f9.js.map  1.02 MiB             index  [emitted]  index
+    js/server_rendering-620554654a7a3636d153.js  1.06 MiB  server_rendering  [emitted]  server_rendering
+js/server_rendering-620554654a7a3636d153.js.map  1.22 MiB  server_rendering  [emitted]  server_rendering
+                                  manifest.json  1.01 KiB                    [emitted]  
+Entrypoint application = js/application-0ebe55f0a04ced46d4db.js js/application-0ebe55f0a04ced46d4db.js.map
+Entrypoint index = js/index-34e154e5c65473a1d8f9.js js/index-34e154e5c65473a1d8f9.js.map
+Entrypoint server_rendering = js/server_rendering-620554654a7a3636d153.js js/server_rendering-620554654a7a3636d153.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 264 bytes {application} {server_rendering} [built]
+[./app/javascript/css/style.css] 1.3 KiB {application} {index} {server_rendering} [built]
+[./app/javascript/packs/application.js] 193 bytes {application} [built]
+[./app/javascript/packs/index.js] 561 bytes {index} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/css/style.css] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css 1.14 KiB {application} {index} {server_rendering} [built] [1 warning]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 472 bytes {application} {index} {server_rendering} [built]
+    + 34 hidden modules
+
+WARNING in ./app/javascript/css/style.css (./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/css/style.css)
+Module Warning (from ./node_modules/postcss-loader/src/index.js):
+Warning
+
+(7:1) @import must precede all other statements (besides @charset)
+ @ ./app/javascript/css/style.css 2:14-153
+ @ ./app/javascript/packs/index.js
+
+Completed 200 OK in 3263ms (Views: 3258.8ms | ActiveRecord: 2.7ms)
+
+
